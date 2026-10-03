@@ -1,0 +1,22 @@
+# CODEOWNERS para revisão obrigatória do sistema multiagente
+# Regras mais específicas têm precedência sobre as mais gerais.
+
+# Revisores padrão do repositório.
+* @HUGOALMEIDARAMOS
+
+# Prompt principal e memória do agente
+/agent.md @HUGOALMEIDARAMOS
+/memory.md @HUGOALMEIDARAMOS
+
+# Agentes especializados e seus prompts
+/agent-ada.md @HUGOALMEIDARAMOS
+/agent-lint.md @HUGOALMEIDARAMOS
+/agent-val.md @HUGOALMEIDARAMOS
+
+# Core da aplicação
+/agent.py @HUGOALMEIDARAMOS
+/app.py @HUGOALMEIDARAMOS
+/requirements.txt @HUGOALMEIDARAMOS
+
+# Infraestrutura de repo e políticas de qualidade
+/.github/ @HUGOALMEIDARAMOS
